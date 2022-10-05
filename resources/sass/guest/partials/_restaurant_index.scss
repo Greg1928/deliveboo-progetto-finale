@@ -1,0 +1,24 @@
+.restaurant-index{
+    h1{
+        text-align: center;
+    }
+    h2{
+        font-style: italic;
+        font-size: 3.125rem;
+    }
+    img{
+        border-radius: 50px;
+    }
+    
+    .box{
+        text-align: center;
+        color: black;
+
+        .btn{
+            background-color: #b45cff;
+            color: white;
+            margin-top: 3rem;
+        }
+    }
+    
+}

@@ -1,0 +1,31 @@
+.restaurant-show{
+    h1{
+        font-size: 3.75rem;
+        margin-bottom: 1.875rem;
+        text-align: center;
+    }
+    .btn{
+        background-color: #b45cff;
+        color: white;
+        margin-top: 3rem;
+    }
+    .row{
+        padding: 0 40px;
+    }
+    img{
+        border-radius: .625rem;
+    }
+    ul{
+        list-style: none;
+
+        li{
+            color: #b45cff;
+            margin-top: 1.25rem;
+        }
+    }
+    p{
+        color: #b45cff;
+        margin-top: 1.25rem;
+    }
+    
+}

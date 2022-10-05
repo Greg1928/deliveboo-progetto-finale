@@ -1,0 +1,122 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--footer__color);
+
+    &__content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;
+        
+                &__name{
+                color: var(--text__primary);
+                font-size: 1.2rem;
+                font-weight: 600;
+
+                }
+
+                &__table{
+
+                    margin-top: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    li{
+                    list-style: none;
+
+                    a {
+                        color: rgb(109, 109, 109);
+                        text-decoration: none;
+
+                        p{
+                            font-weight: 600;
+                            font-size: 0.8rem;
+                        }
+                      }
+                    a:hover{
+                        color: var(--text__primary);
+                        text-decoration: none;
+                        transition: 0.25s;
+                        }
+                    }
+                }                
+    }
+}
+.hrbar{
+background-color: var(--text__primary);
+}
+
+.footer__bottom{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+
+&__left__text{
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(190, 190, 190);
+
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(190, 190, 190);
+        transition: 0.25s;
+    }
+}
+
+&__right{
+    padding: 1rem;
+    &__menu{
+        display: flex;
+
+        &__text{
+            list-style: none;
+            margin: 0 0.25rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            a{
+                color: var(--text__primary);
+                text-decoration: none;
+             }
+             a:hover{
+                color: rgb(182, 182, 182);
+                transition: 0.3s;
+             }
+        }
+    }
+}
+}
+
+.download{
+display: flex;
+flex-direction: column;
+
+&__style{
+    max-width: 75%;
+    padding: 0.5rem 0;
+
+    a {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        padding: 0.25rem 0;
+        background-color: var(--text__primary);
+        border-radius: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 2px solid transparent;
+    }
+    a:hover{
+        background-color: transparent;
+        color: var(--text__primary);
+        border: 2px solid var(--text__primary);
+        transition: 0.25s;
+    }
+}
+}
+

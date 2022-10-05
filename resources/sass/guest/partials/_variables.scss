@@ -1,0 +1,18 @@
+:root{
+    --background: #eaeaea;
+    --text__primary: #ffffff;
+    --text__secondary: #232323;
+    --primary__color: #b45cff;
+    --text__category: #b45cff;
+    --button__category: #e5e5e5;
+    --button__dishes: #b45cff;
+    --button__hero__border__color: #c79dff;
+    --footer__color: #2c2c2c;
+    
+    /*SingleRestaurants.Page*/
+    --single__restaurants__text__white: #ffffff;
+}
+
+body{
+    background-color: var(--background);
+}

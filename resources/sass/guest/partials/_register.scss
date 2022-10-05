@@ -1,0 +1,35 @@
+.nav-custom{
+    background-color: #b45cff;
+
+}
+.card-header-custom{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    margin: 1.875rem 0;
+}
+.nav-item{
+    a{
+        font-weight: bold;
+    }
+}
+.card{
+    border-radius: 1.25rem;
+    box-shadow: 3px 3px 2px 2px #b35cffa2;
+
+    .card-body{
+        padding: 2rem 5rem;
+    }
+
+    .form-control{
+        border-radius: 2rem;
+        border: 3px solid #b45cff;
+    }
+}
+.btn-log{
+    text-align: center;
+
+    button{
+        color: white;
+    }
+}
